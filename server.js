@@ -4,7 +4,7 @@ const path = require('path')
 const Sequelize = require('sequelize')
 const db1 = require('mysql2/promise')
 
-const routes = require('../serverPresentes/src/routes')
+const routes = require('./src/routes')
 
 
 //sequelize nao deu certo pois a versao do banco da hostgator era
